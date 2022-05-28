@@ -20,6 +20,5 @@ class DatabaseSeeder extends Seeder
             CartSeeder::class,
             CartProductSeeder::class,
         ]);
-        \App\Models\User::factory(10)->create();
     }
 }

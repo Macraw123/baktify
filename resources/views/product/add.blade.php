@@ -52,7 +52,7 @@
       </div>
       <hr>
       <div class="input">
-        <label for="category_id">Category ID</label>
+        <label for="category_id">Category Name</label>
         <select name="category_id" id="category_id">
           @foreach($categories as $category)
             <option value="{{$category->id}}">{{$category->name}}</option>
